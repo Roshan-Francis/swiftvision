@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "902575076758",
+    "project_id": "swiftvision-mbcet-s4cs2",
+    "storage_bucket": "swiftvision-mbcet-s4cs2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902575076758:android:7a5a8682590d8dd58159b7",
+        "android_client_info": {
+          "package_name": "com.example.swiftvision"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902575076758-eeufj3vjf01gsutmc15b2065fp7hglti.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.swiftvision",
+            "certificate_hash": "2fc099f689913c2799098b032efa68726f935ea7"
+          }
+        },
+        {
+          "client_id": "902575076758-5vb50f45fjs6j8nueova9kt8nkfm88af.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSS1CXfl9oEcxuSHIFlpPuItJmhgeSk3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902575076758-5vb50f45fjs6j8nueova9kt8nkfm88af.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
