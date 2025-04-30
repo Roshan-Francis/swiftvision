@@ -9,6 +9,7 @@ SwiftVision is a Face Recognition-based Attendance System that connects a Flutte
 ### 1. Login (Google Authentication)
 - Users log in through the Flutter app using Google Sign-In.
 - Firebase Authentication handles secure login.
+<img src="screenshots/login.jpg" alt="Login Page" width="200"/>
 
 ---
 
@@ -20,6 +21,7 @@ After login, users see the following options:
 - Take Attendance
 - View Attendance
 - Logout
+<img src="screenshots/dashboard.jpg" alt="Dashboard" width="200"/>
 
 ---
 
@@ -29,11 +31,11 @@ After login, users see the following options:
   - User enters student details (name, roll number, etc.).
   - Captures a photo of the student.
 - The app sends:
-  - Photo → to the PC using Flask HTTP API.
-  - Student details → to Firebase Firestore and MySQL.
+  - Photo and details  → to the PC using Flask HTTP API.
 - The Flask backend:
   - Stores the photo locally on the PC, named as the student's roll number (e.g., `2101.jpg`).
   - Saves the student details in MySQL and Firebase for redundancy.
+  <img src="screenshots/register_student.jpg" alt="Register" width="200"/>
 
 ---
 
@@ -50,6 +52,7 @@ After login, users see the following options:
     - Marks attendance in:
       - MySQL
       - Firebase Firestore
+<img src="screenshots/take_attendance.jpg" alt="Mark Attendance" width="200"/>
 
 ---
 
@@ -58,6 +61,7 @@ After login, users see the following options:
 - The app sends a request to the Flask backend.
 - Flask fetches the data from Firebase Firestore.
 - Sends it back to the Flutter app to display attendance history.
+<img src="screenshots/view_attendance.jpg" alt="Records" width="200"/>
 
 ---
 
@@ -71,6 +75,7 @@ After login, users see the following options:
 - Local Storage: Student images saved as `<rollno>.jpg` on PC
 
 ---
+
 ## Setup Instructions
 
 ### Prerequisites
@@ -100,7 +105,3 @@ After login, users see the following options:
    ```bash
    cd lib/backend
    python swiftAPI.py
-
-
-   
-
