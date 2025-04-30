@@ -78,30 +78,13 @@ After login, users see the following options:
 
 ## Setup Instructions
 
-### Prerequisites
-
-1. **Flutter**: Make sure you have Flutter installed. If not, follow the instructions [here](https://flutter.dev/docs/get-started/install).
+1. **Flutter**: Make a new flutter project copy the files
 2. **Firebase**: Set up Firebase for your Flutter project and enable Firebase Authentication and Firestore.
-3. **Python**: Install Python 3.9+ and required libraries (OpenCV, Flask, etc.) for the backend.
-
-### Running the Project
-
-1. Clone the repository:
+3. **Flask** : In flutter add your ip address in register , take attendance  and view attendance pages after that do:
    ```bash
-   git clone https://github.com/Roshan-Francis/swiftvision.git
-2. Navigate to the Flutter project directory:
-   ```bash
-   cd swiftvision
-3. Install Flutter dependencies:
-   ```bash
-   flutter pub get    
-4. Run the Flutter app:
-   ```bash
-   flutter run
-5. Set up the Python backend (if not done already):
+     flutter pub get
+     flutter run   
+4. **Python**: Install Python 3.9+ and required libraries (OpenCV, Flask, etc.) for the backend and run swiftAPI.py.
    ```bash
    pip install mtcnn mysql-connector-python firebase-admin opencv-python flask
-6. Run the Python server:
-   ```bash
-   cd lib/backend
-   python swiftAPI.py
+   python lib/backend/swiftAPI.py
