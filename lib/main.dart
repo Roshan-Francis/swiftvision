@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'pages/login_page.dart';
-import 'pages/home_page.dart';
 import 'pages/dashboard_page.dart';
 import 'pages/register_class_page.dart';
+import 'pages/take_attendance_page.dart';
+import 'pages/view_attendance_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -23,9 +24,10 @@ class SwiftVisionApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => LoginPage(),
-        '/home': (context) => HomePage(),
         '/dashboard': (context) => DashboardPage(),
         '/register_class': (context) => RegisterClassPage(),
+        '/takeAttendance': (context) => TakeAttendancePage(),
+        '/viewAttendance': (context) => ViewAttendancePage(),
       },
     );
   }
